@@ -1,0 +1,64 @@
+body{
+  font-family: 'Andale Mono', monospace;
+  color: white;
+  background-image: url(BG-1.jpg);
+}
+
+.head{
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+}
+.flex-block-1{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.flex-block-2{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.block-1{
+  font-size: 23px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(75, 75, 75, 0.568);
+    width: 600px;
+    height: 300px;
+}
+.block-2{
+  font-size: 23px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:  rgba(75, 75, 75, 0.568);
+    width: 600px;
+    height: 170px;
+}
+
+/*a animation*/
+
+a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: gray;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+.flex-a{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
